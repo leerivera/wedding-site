@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import { space, color, layout, flexbox } from 'styled-system'
 
 function Details() {
     return (
         <div>
             <Wrap>
-                <ItemText>
+                <ItemText>                          
                     <h1>RSVP</h1>
                     <br/>
                     <p>We kindly request that you RSVP by 5 July 2021. Click <a href="#">HERE</a> to RSVP.</p>
@@ -50,19 +51,43 @@ export default Details
 
 const Wrap = styled.div`
      width: 100vw;
-     height:100vh;
-     margin-left: -15px;
-     margin-right: -15px;
+     height: 100vh;
+     
+     
      justify-content: space-between;
      background-size:cover;
      background-postion: center;
      background-repeat: no-repeat;
      background-image: url("/images/JSR67227.jpg");
+    box-sizing: border-box;
+    
 
-`;
+
+ `;
+// const Box = styled.div(
+//     {
+//       boxSizing: 'border-box',
+//       minWidth: 10,
+//     },
+//     space,
+//     color,
+//     layout,
+//     flexbox
+//   )
 
 const ItemText = styled.div`
+    //  margin-top: 10vh;
     padding-top: 15vh;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    // margin-bottom: 10vh;
     text-align:center;
     justify-content: space-between;
+    border-sizing: border-box;
+    // background-image: url("/images/JSR67227.jpg");
+    background-color: white;
+    
+    
+    // background-width: 00px;
+    
 `;

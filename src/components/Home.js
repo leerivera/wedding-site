@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from "./Section"
+import Card from "./Card"
 import Details from "./Details"
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
             title="Details"
             backgroundImg="JSR67348.jpg"
             />
+            {/* <Card/> */}
         </Container>
     )
 }
