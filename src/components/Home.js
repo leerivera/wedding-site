@@ -1,14 +1,18 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from "./Section"
-import Card from "./Card"
+
 import Details from "./Details"
+import TitlebarGridList from './Cards'
+
+
+
 
 function Home() {
     return (
         <Container>
             <Section
-            title="Akosua + Nicholas"
+            title="Akosua & Nicholas"
             backgroundImg="JSR67227.jpg"
             />
             {/* <Section
@@ -21,7 +25,9 @@ function Home() {
             title="Details"
             backgroundImg="JSR67348.jpg"
             />
-            {/* <Card/> */}
+            <TitlebarGridList/>
+          
+          
         </Container>
     )
 }

@@ -7,7 +7,7 @@ function Section({ title, backgroundImg, details }) {
         <Wrap bgImage={backgroundImg}>
             <ItemText>
                 <h1>{ title } </h1>
-                <h2>{ details }</h2>
+                <h2>{  }</h2>
 
             </ItemText>
         <ButtonGroup>
@@ -28,6 +28,7 @@ export default Section
 //   background-image: url('images/JSR67221.jpg);
 // `;
 const Wrap = styled.div`
+  
   width: 100vw;
   height:100vh;
   background-size:cover;
@@ -46,6 +47,7 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
     padding-top: 15vh;
+    padding-bottom: 15vh;
     text-align:center;
 `;
 
@@ -53,7 +55,7 @@ const DownArrow = styled.img`
      margin-top: 20 px;
      height:40px;
      overflow-x: hidden;
-     background: orange;
+    //  background: orange;
      animation: animateDown infinite 1.5s;
 `;
 

@@ -1,7 +1,7 @@
 *  {
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-  color: #393c41;
+  font-family: 'Antic Slab', serif;
+  /* color: blue; */
   margin: 0;
   padding: 0;
 }
@@ -9,11 +9,23 @@
 body {
     width: 100%;
     overflow-x: hidden;
+    color:black;
 }
-
+h1 {
+  color: black;
+  text-shadow: 2px 1px white;
+}
 a {
   text-decoration: none;
+  color:black;
 }
+.gallery {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+
 
 @keyframes animateDown {
   0%, 20%, 50%, 80%, 100% {

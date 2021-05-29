@@ -1,23 +1,24 @@
 import React from 'react'
 import styled from 'styled-components';
+import {Link} from 'react-scroll'
 
 function Header() {
     return (
         <Container>
 
           <Menu>
-            <p><a href="#">
+            <h1><Link to="Details" spy={true} smooth={true}><a href="#">
                Details 
-            </a></p>
-            <p><a href="#">
+            </a></Link></h1>
+            <h1><a href="#">
                 RSVP
-            </a></p>
-            <p><a href="#">
+            </a></h1>
+            <h1><a href="https://www.honeyfund.com/wedding/baah-dwomoh-rivera-08-21-2021">
                 Registry
-            </a></p>
-            <p><a>
+            </a></h1>
+            <h1><a href="https://1drv.ms/u/s!AtX6oBLRLqJFg-gES_uBQtivxgEImA?e=V0puy1">
                 Gallery
-            </a></p>
+            </a></h1>
 
           </Menu>
             {/* <a href="#">
@@ -39,8 +40,9 @@ function Header() {
 export default Header
 
 const Container = styled.div`
+    
     min-height: 60px;
-    position:fixed;
+    // position:fixed;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -56,10 +58,12 @@ const Menu = styled.div`
     justify-content: center;
     flex: 1;
 
-    p {
-        font-weight: 600;
+    h1 {
+        font-size: 25px;
+       
+        // font-weight: 1200px;
         text-transform: uppercase;
-        padding 0 10px;
+        padding 0 50px;
         
         flex-wrap: no-wrap;s
     }
