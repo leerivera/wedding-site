@@ -7,7 +7,7 @@ function Header() {
         <Container>
 
           <Menu>
-            <h1><Link to="Details" spy={true} smooth={true}><a href="#">
+            <h1><Link to="Details" spy={true} smooth={true}><a>
                Details 
             </a></Link></h1>
             <h1><a href="#">
@@ -16,9 +16,9 @@ function Header() {
             <h1><a href="https://www.honeyfund.com/wedding/baah-dwomoh-rivera-08-21-2021">
                 Registry
             </a></h1>
-            <h1><a href="https://1drv.ms/u/s!AtX6oBLRLqJFg-gES_uBQtivxgEImA?e=V0puy1">
+            <h1><Link to="Gallery" spy={true} smooth={true}><a>
                 Gallery
-            </a></h1>
+            </a></Link></h1>
 
           </Menu>
             {/* <a href="#">

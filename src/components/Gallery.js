@@ -18,6 +18,7 @@ export default function Gallery() {
   const classes = useStyles();
 
   return (
+   
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs>
@@ -42,6 +43,7 @@ export default function Gallery() {
         </Grid>
       </Grid>
     </div>
+  
   );
 }
 
