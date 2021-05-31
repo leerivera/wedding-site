@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { space, color, layout, flexbox } from 'styled-system'
+// import { space, color, layout, flexbox } from 'styled-system'
 
 function Details({ backgroundImg }) {
     return (
