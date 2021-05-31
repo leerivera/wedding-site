@@ -34,7 +34,7 @@ export default function TitlebarGridList() {
 
   return (
     <div id="Gallery" className={classes.root}>
-      <GridList cellHeight={400}  spacing={30} className={classes.gridList}>
+      <GridList cellHeight={400}  spacing={60} className={classes.gridList}>
         <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
           <ListSubheader component="div"></ListSubheader>
         </GridListTile>

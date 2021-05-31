@@ -10,7 +10,7 @@ function Header() {
             <h1><Link to="Details" spy={true} smooth={true}><a>
                Details 
             </a></Link></h1>
-            <h1><a href="#">
+            <h1><a href="https://nikos082021.surveysparrow.com/s/Akosua-and-Nicholas-Wedding-RSVP/tt-7aa0a2">
                 RSVP
             </a></h1>
             <h1><a href="https://www.honeyfund.com/wedding/baah-dwomoh-rivera-08-21-2021">
@@ -68,9 +68,15 @@ const Menu = styled.div`
         flex-wrap: no-wrap;s
     }
 
-    @media(max-width: 768px) {
-        display: none
+    @media(max-width: 414px) {
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0 14px;
     }
 
 
 `;
+
+// @media(max-width: 768px) {
+//     display: none
+// }

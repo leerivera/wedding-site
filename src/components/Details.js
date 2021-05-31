@@ -9,7 +9,7 @@ function Details({ backgroundImg }) {
                 <ItemText>                          
                     <h2>RSVP</h2>
                     <br/>
-                    <p>We kindly request that you RSVP by 5 July 2021. Click <a href="#">HERE</a> to RSVP.</p>
+                    <p>We kindly request that you RSVP by 5 July 2021. Click <a href="https://nikos082021.surveysparrow.com/s/Akosua-and-Nicholas-Wedding-RSVP/tt-7aa0a2">HERE</a> to RSVP.</p>
                     <br/>
                     <h2>CEREMONY AND RECEPTION</h2>
                     <br/>
@@ -72,6 +72,7 @@ const Wrap = styled.div`
      background-image: url("/images/JSR67227.jpg");
      box-sizing: border-box;
     //  background-image: ${props => `url("/images/${props.bgImage}")`};
+    background-position: center;
     
 
 

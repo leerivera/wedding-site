@@ -21,21 +21,21 @@ export default function Gallery() {
    
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs>
+        <Grid item xs sm={12}>
           <Paper className={classes.paper} >xs</Paper>
         </Grid>
-        <Grid item xs>
+        <Grid item xs sm={12}>
           <Paper className={classes.paper}>xs</Paper>
         </Grid>
-        <Grid item xs>
+        <Grid item xs sm={12}>
           <Paper className={classes.paper}>xs</Paper>
         </Grid>
       </Grid>
-      <Grid container spacing={3}>
+      <Grid container spacing={1}>
         <Grid item xs>
           <Paper className={classes.paper}>xs</Paper>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={3}>
           <Paper className={classes.paper}>xs=6</Paper>
         </Grid>
         <Grid item xs>

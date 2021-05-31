@@ -42,6 +42,7 @@ const Wrap = styled.div`
   background-image: url("/images/JSR67227.jpg");
 
   background-image: ${props => `url("/images/${props.bgImage}")`};
+  background-position: center;
   
 `;
 

@@ -19,6 +19,9 @@ a {
   text-decoration: none;
   color:black;
 }
+li {
+  list-style: none;
+}
 .gallery {
   display: grid;
   overflow: hidden;
@@ -42,6 +45,29 @@ a {
   
 }
 
-@media (max-width: 500px) {
-  
+@media (max-width: 768px) {
+  .ejTKRV .jHDyjf h1 {
+    font-size: 22px;
+        padding: 0 24px;
+  }
 }
+
+@media (max-width: 500px) {
+  .ejTKRV .jHDyjf h1 {
+    font-size: 18px;
+        padding: 0 14px;
+  }
+  #Gallery ul.makeStyles-gridList-2  {
+    flex-direction: column
+  }
+  #Gallery ul.makeStyles-gridList-2 li.MuiGridListTile-root {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .ejTKRV .jHDyjf h1 {
+        padding: 0 3px ;
+  }
+}
+
