@@ -65,7 +65,7 @@ const Menu = styled.div`
         text-transform: uppercase;
         padding 0 50px;
         
-        flex-wrap: no-wrap;s
+        flex-wrap: no-wrap;
     }
 
     @media(max-width: 414px) {
