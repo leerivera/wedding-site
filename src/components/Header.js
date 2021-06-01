@@ -38,11 +38,11 @@ function Header() {
 }
 
 export default Header
-
+// position:fixed;
 const Container = styled.div`
     
     min-height: 60px;
-    // position:fixed;
+    
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -60,8 +60,6 @@ const Menu = styled.div`
 
     h1 {
         font-size: 25px;
-       
-        // font-weight: 1200px;
         text-transform: uppercase;
         padding 0 50px;
         
@@ -80,3 +78,6 @@ const Menu = styled.div`
 // @media(max-width: 768px) {
 //     display: none
 // }
+
+
+        // font-weight: 1200px;
