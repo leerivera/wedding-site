@@ -45,14 +45,14 @@ li {
   
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .ejTKRV .jHDyjf h1 {
     font-size: 22px;
         padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 540px) and (min-height: 720px) {
+@media only screen and (max-width: 540px) and (min-height: 720px) {
   .ejTKRV .jHDyjf h1 {
     font-size: 18px;
         padding: 0 14px;
@@ -65,7 +65,7 @@ li {
   }
 }
 
-@media screen and (max-width: 414px) and (min-height: 736px) and (max-width: 500px) {
+@media only screen and (max-width: 414px) and (min-height: 736px) and (max-width: 500px) {
   .ejTKRV .jHDyjf h1 {
     font-size: 18px;
         padding: 0 14px;
@@ -78,7 +78,7 @@ li {
   }
 }
 
-@media screen and (max-width: 375px) and (min-height: 667px), (max-width: 360px) and (min-height: 640px) {
+@media only screen and (max-width: 375px) and (min-height: 667px), (max-width: 360px) and (min-height: 640px) {
   .ejTKRV .jHDyjf h1 {
         padding: 0 3px ;
   }
