@@ -1,57 +1,51 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-// import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-// import IconButton from '@material-ui/core/IconButton';
-// import InfoIcon from '@material-ui/icons/Info';
-import tileData from './tileData';
+import './Cards.css';
+import CardItem from './CardItem';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 1000,
-    height: 1000,
-  },
-  titleBar: {
-    background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
-  },
-  // icon: {
-  //   color: 'rgba(255, 255, 255, 0.54)',
-  // },
-}));
-
-export default function TitlebarGridList() {
-  const classes = useStyles();
-
+function Cards() {
   return (
-    <div id="Gallery" className={classes.root}>
-      <GridList cellHeight={400}  spacing={60} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div"></ListSubheader>
-        </GridListTile>
-        {tileData.map((tile) => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            {/* <GridListTileBar
-            //   title={tile.title}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
-            /> */}
-          </GridListTile>
-        ))}
-      </GridList>
+    <div className='cards'>
+      {/* <h1>Gallery</h1> */}
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-9.jpg'
+              
+              // label='Adventure'
+              path='/services'
+            />
+            <CardItem
+              src='images/img-2.jpg'
+              
+              // label='Luxury'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-3.jpg'
+              
+              // label='Mystery'
+              path='/services'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              // text=''
+              // label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-8.jpg'
+               text='lkvlkzjjvsflsafjlkfkaflkdfja'
+              // label='Adrenaline'
+              path='/sign-up'
+            />
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
+
+export default Cards;
