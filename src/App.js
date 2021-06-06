@@ -10,7 +10,7 @@ import Cardfour from './components/pages/Cardfour';
 import Cardfive from './components/pages/Cardfive';
 import Cardsix from './components/pages/Cardsix';
 import Details from './components/pages/Details';
-import SignUp from './components/pages/SignUp';
+// import SignUp from './components/pages/SignUp';
 import Cards from './components/pages/Cards'
 // import logo from './images/logo'
 
